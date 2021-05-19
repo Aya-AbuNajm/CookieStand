@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Girassol&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/reset.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Sales</title>
+
+</head>
+
+<body>
+
+  <header>
+    <img src="Asset/salmon.png" alt="logo" />
+        <nav>
+      <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="index.html">Story</a></li>
+        <li><a href="index.html">Products  </a></li>
+        <li><a href="index.html">Stores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Sales</h1>
+
+
+  <form id="newStore">
+    <fieldset>
+      <legend>Create your new store here</legend>
+      <label for="maxSale">Maximum</label>
+      <input name="maxSale" type="number" size="30" id="maxSale" placeholder=" Maximum sales per hour " required />
+
+      <label for="minSale">Minimum</label>
+      <input name="minSale" type="number" size="30" id="minSale" placeholder=" Minimum sales per hour " required />
+
+      <label for="storeLocation"> Store Location: </label>
+      <input name="storeLocation" type="text" size="30" id="storeLocation" placeholder=" Store Location " required />
+
+      
+      <label for="avgSale">Average</label>
+      <input name="avgSale" type="number" step="any" ; size="30" id="avgSale" placeholder=" Average sales per hour "
+        required />
+
+      <button type="submit">Create new store</button>
+
+    </fieldset>
+  </form>
+
+
+  <section id="Sales">
+
+  </section>
+
+  <script src="App.js"></script>
+</body>
+
+</html>

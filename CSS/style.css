@@ -1,0 +1,192 @@
+* {
+    font-family: Cinzel;
+    scroll-behavior: smooth;
+}
+
+
+main{
+   padding:  50px;
+}
+
+h1{
+    color: rgb(18, 177, 169);
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+color: rgb(30, 117, 110);
+    font-size: 40px;
+    text-align: left;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+h3{
+
+    font-size: 23px;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    padding-left: 0;
+   
+
+}
+
+h5 {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(14, 122, 108);
+}
+
+#Storys {
+    font-family: Georgia;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    max-width: 100%;
+    
+}
+
+body{
+    background: linear-gradient(90deg, rgb(252, 252, 252) 0%, rgba(166, 240, 240, 0.815) 100%);
+}
+
+footer {
+    border-radius: 50px ;
+    color: black;
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    clear: both;
+    background-color: #0b5f58;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(43, 122, 122, 0.726) 0%, rgba(111, 201, 201, 0.815) 100%);
+    width: 97%;
+    height: 180px;
+    padding: 30px;
+    border-radius: 50px ;
+    
+}
+
+header img {
+    margin: 15px 70px;
+    width: 10%;
+    top: -15px;
+}
+#logoText{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(14, 136, 136);
+    position: absolute;
+    top: 91px;
+    left: 140px;
+    font-weight: bolder;
+}
+
+
+
+header nav {
+    float: right;
+    position:absolute;
+    right: 0;
+    width: 50%;
+    margin: 0px;
+   
+}
+
+header nav ul li {
+    width: 20%;
+    display: inline-block;
+    margin: 75px 0 ;
+}
+
+
+header nav ul li a {
+    color: rgb(18, 130, 134);
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#first {
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+#Stores ol li {
+    margin: 20px ;
+  font-size: 18px;
+}
+
+table {
+    color: rgb(38, 40, 41);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px;
+  }
+  th{
+      font-weight: bolder;
+  }
+  td, titleTab {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  input, button, label, legend {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+      font-size: 18px;
+      width:300px;
+      margin-top: 15px;
+  }
+  
+  fieldset{
+      padding: 0 20px;
+  }
+  
+  #right-sec{
+ 
+    width: 50%;
+    float: right;
+}
+
+#left-sec  {
+    width: 50%;
+    float: left;
+}
+
+#Stores{
+    clear:both;
+    margin: 40px;
+    padding: 20px 0;
+}
