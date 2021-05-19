@@ -281,8 +281,8 @@ newStorform.addEventListener("submit", another);
 function another(event) {
   event.stop();
 
-  let minSale = event.target.minSale.value;
-  let avgSale = event.target.avgSale.value;
+  let min = event.target.min.value;
+  let avg = event.target.avg.value;
   let storeLocation = event.target.storeLocation.value;
   let maxSale = event.target.maxSale.value;
  
@@ -292,8 +292,8 @@ function another(event) {
 
     
       table.deleteRow(table.rows.length - 1);
-      let myNewStor = new store(storeLocation, minSale, maxSale, avgSale);
-      myNewStor.addToTable();
+      let creatstore  = new store(storeLocation, minSale, maxSale, avgSale);
+      creatstore.addToTable();
      
       call();
 funsum();
